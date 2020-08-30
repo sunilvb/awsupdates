@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8e983254-a424-4588-b558-a13d188f783b": {
+        "id": "8e983254-a424-4588-b558-a13d188f783b",
+        "parent": null,
+        "name": "awsupdates.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "awsupdates.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "awsupdates"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK38b75e8aa1714b22b3086e2ba792b301",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "8e983254-a424-4588-b558-a13d188f783b"
+    ],
+    "currentFileId": "8e983254-a424-4588-b558-a13d188f783b",
+    "resources": {
+      "alexaSK38b75e8aa1714b22b3086e2ba792b301": {
+        "name": "alexaSK38b75e8aa1714b22b3086e2ba792b301",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.38b75e8a-a171-4b22-b308-6e2ba792b301",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "version": "1.13.0",
+          "dev": false,
+          "language": "python"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.5",
+    "projectName": "awsupdates",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1598815977796
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "awsupdates",
+      "url": "https://github.com/sunilvb/awsupdates"
+    }
+  }
+}
